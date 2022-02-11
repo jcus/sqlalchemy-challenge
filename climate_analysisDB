@@ -1,0 +1,13 @@
+--hawaii_measurements.csv
+DROP TABLE IF EXISTS hawaii_measurements;
+
+CREATE TABLE hawaii_measurements (
+	station VARCHAR DEFAULT NULL,
+	date DATE DEFAULT NULL,
+	prcp decimal DEFAULT NULL,
+	tobs INT DEFAULT NULL
+);
+--station,date,prcp,tobs
+--USC00519397,2010-01-01,0.08,65
+--USC00519397,2010-01-02,0,63
+"SELECT * FROM hawaii_measurements";
