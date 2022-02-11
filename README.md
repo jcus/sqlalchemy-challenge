@@ -1,10 +1,10 @@
 # SQLAlchemy - Surfs Up!
 
-### Before You Begin
+### Preparing Ahead
 
 1. Create a new repository called `sqlalchemy-challenge` and clone to your computer.
 
-2. Add your Jupyter notebook and `app.py` to this folder where the main scripts to run for analysis.
+2. Add Jupyter notebook and `app.py` to this folder for the main scripts to run for analysis.
 
 3. Push the above changes to GitHub or GitLab.
 
@@ -12,13 +12,13 @@
 
 
 ### Background
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
+You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
 ## Step 1 - Climate Analysis and Exploration
 
-To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+To begin, using Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete the climate analysis and data exploration.
 
 * Use SQLAlchemy `create_engine` to connect to sqlite database.
 
@@ -26,7 +26,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Link Python to the database by creating an SQLAlchemy session.
 
-* **Important** Don't forget to close out your session at the end of your notebook.
+* **Important** Close out the session at the end of the notebook.
 
 
 ### Precipitation Analysis
@@ -62,7 +62,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Using the most active station id, calculate the lowest, highest, and average temperature.
 
-  * Hint: You will need to use a function such as `func.min`, `func.max`, `func.avg`, and `func.count` in your queries.
+  * Hint: use functions such as `func.min`, `func.max`, `func.avg`, and `func.count` in queries.
 
 * Design a query to retrieve the last 12 months of temperature observation data (TOBS).
 
@@ -74,7 +74,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
     ![station-histogram](Images/station-histogram.png)
 
-* Close out your session.
+* !! Close out your session.
 
 - - -
 
